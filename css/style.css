@@ -1748,13 +1748,14 @@ button:focus {
   margin-bottom: 10px; }
 
 @media (max-width: 767px) {
-  img#largeview {
-    display: none; }
   .typo-sec {
     margin-bottom: 30px; } }
 @media (max-width: 767px) {
   .element-wrap {
     margin-top: 30px; } }
+@media (max-width:629px) {
+  img#largeview {
+    display: none; } } 
 b, sup, sub, u, del {
   color: #f8b600; }
 
