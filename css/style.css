@@ -1748,6 +1748,8 @@ button:focus {
   margin-bottom: 10px; }
 
 @media (max-width: 767px) {
+  img#largeview {
+    display: none; }
   .typo-sec {
     margin-bottom: 30px; } }
 @media (max-width: 767px) {
