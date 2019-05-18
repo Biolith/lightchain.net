@@ -2749,7 +2749,7 @@ h6 {
 .recent_update_area {
   background-image: url(../img/tab-bg.jpg);
   background-size: cover;
-  padding: 290px 0; }
+  padding: 20px 0; }
   .recent_update_area.made_white {
     background: #fff; }
 
@@ -3236,7 +3236,7 @@ h6 {
   /* Recent Update Area css
   ============================================================================================ */
   .recent_update_area {
-    padding: 80px 0;
+    padding: 20px 0;
     background-image: none;
     background-color: #fcf8ff; }
 
