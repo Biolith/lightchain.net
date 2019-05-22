@@ -147,6 +147,7 @@ button:focus {
   background: -moz-linear-gradient(90deg, #004753 0%, #2D879E 100%);
   background: -o-linear-gradient(90deg, #004753 0%, #2D879E 100%);
   background: linear-gradient(90deg, #004753 0%, #2D879E 100%);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -1306,6 +1307,7 @@ button:focus {
           .home_map_area .home_details .box_home_details .media .d-flex i {
             font-size: 20px;
             background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
+            background-clip: inherit;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; }
         .home_map_area .home_details .box_home_details .media .media-body h4 {
@@ -2793,6 +2795,7 @@ h6 {
           background: -moz-linear-gradient(90deg, #fff, #fff);
           background: -o-linear-gradient(90deg, #fff, #fff);
           background: linear-gradient(90deg, #fff, #fff);
+          background-clip: inherit;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent; }
     .recent_update_inner .nav.nav-tabs li h6 {
