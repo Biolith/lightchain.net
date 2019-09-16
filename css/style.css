@@ -16,7 +16,7 @@ Author E-mail: naimlasker@gmail.com
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,600|Roboto:400,500,500i");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -28,7 +28,7 @@ Author E-mail: naimlasker@gmail.com
 body {
   line-height: 24px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   color: #777777; }
 
@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600; }
 
 .list {
@@ -96,7 +96,7 @@ button:focus {
     .main_title {
       margin-bottom: 40px; } }
   .main_title h2 {
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 36px;
     color: #000;
     font-weight: 600;
@@ -104,7 +104,7 @@ button:focus {
     text-transform: capitalize; }
   .main_title p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 24px;
     color: #777777;
     margin-bottom: 0px;
@@ -147,6 +147,7 @@ button:focus {
   background: -moz-linear-gradient(90deg, #004753 0%, #2D879E 100%);
   background: -o-linear-gradient(90deg, #004753 0%, #2D879E 100%);
   background: linear-gradient(90deg, #004753 0%, #2D879E 100%);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -156,7 +157,7 @@ button:focus {
   display: inline-block;
   color: #004753;
   letter-spacing: 1px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 47px;
@@ -468,7 +469,7 @@ button:focus {
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left;
-      color: #fff; }
+      color: #000; }
       .home_banner_area .banner_inner .banner_content h2 {
         margin-top: 0px;
         font-size: 48px;
@@ -522,7 +523,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: 500;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         line-height: 66px;
         margin-bottom: 15px; }
       .blog_banner .banner_inner .blog_b_text p {
@@ -551,14 +552,14 @@ button:focus {
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 36px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Open Sans", sans-serif;
       margin-bottom: 0px;
       text-transform: capitalize;
       font-weight: bold; }
     .banner_area .banner_inner .banner_content .page_link a {
       font-size: 14px;
       color: #fff;
-      font-family: "Roboto", sans-serif;
+      font-family: "Open Sans", sans-serif;
       margin-right: 32px;
       position: relative; }
       .banner_area .banner_inner .banner_content .page_link a:before {
@@ -594,7 +595,7 @@ button:focus {
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #222222;
   line-height: 34px;
   display: inline-block; }
@@ -610,7 +611,7 @@ button:focus {
   line-height: 40px;
   padding: 0px 28px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 0.4s ease 0s;
@@ -668,7 +669,7 @@ button:focus {
     padding: 30px 35px 40px 30px; }
     .causes_item .causes_text h4 {
       color: #222222;
-      font-family: "Roboto", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 15px;
@@ -689,7 +690,7 @@ button:focus {
     line-height: 50px;
     background: #004753;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 500; }
     .causes_item .causes_bottom a + a {
@@ -1306,6 +1307,7 @@ button:focus {
           .home_map_area .home_details .box_home_details .media .d-flex i {
             font-size: 20px;
             background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
+            background-clip: border-box;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent; }
         .home_map_area .home_details .box_home_details .media .media-body h4 {
@@ -1352,27 +1354,27 @@ button:focus {
   box-shadow: none;
   padding: 0px 15px;
   font-size: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #999999; }
   .reservation_form .form-group input.placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input:-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-moz-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group input::-webkit-input-placeholder {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #999999; }
 .reservation_form .form-group .res_select {
@@ -1384,7 +1386,7 @@ button:focus {
   line-height: 36px; }
   .reservation_form .form-group .res_select .current {
     font-size: 13px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     color: #999999; }
   .reservation_form .form-group .res_select:after {
@@ -1419,7 +1421,7 @@ button:focus {
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Roboto", sans-serif;
+    color: "Open Sans", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #222222; }
@@ -1437,7 +1439,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1513,7 +1515,7 @@ button:focus {
       text-align: center;
       color: #004753;
       padding-bottom: 10px;
-      font-family: "Roboto", sans-serif; }
+      font-family: "Open Sans", sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -2749,7 +2751,7 @@ h6 {
 .recent_update_area {
   background-image: url(../img/tab-bg.jpg);
   background-size: cover;
-  padding: 290px 0; }
+  padding: 20px 0; }
   .recent_update_area.made_white {
     background: #fff; }
 
@@ -2774,7 +2776,7 @@ h6 {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       font-size: 12px;
-      font-family: "Roboto", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-weight: 500;
       text-transform: uppercase;
       color: #000000; }
@@ -2793,6 +2795,7 @@ h6 {
           background: -moz-linear-gradient(90deg, #fff, #fff);
           background: -o-linear-gradient(90deg, #fff, #fff);
           background: linear-gradient(90deg, #fff, #fff);
+          background-clip: border-box;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent; }
     .recent_update_inner .nav.nav-tabs li h6 {
@@ -2810,14 +2813,14 @@ h6 {
   color: #222222;
   line-height: 45px;
   font-size: 36px;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   margin-bottom: 20px; }
 .recent_update_text h6 {
   color: #222222;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 .recent_update_text p {
   margin-bottom: 0px; }
 .recent_update_text .primary_btn {
@@ -2839,7 +2842,7 @@ h6 {
 .common_style h3 {
   font-size: 36px;
   color: #222222;
-  font-family: "Rajdhani", sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 20px; }
 .common_style p {
   margin: 0; }
@@ -2909,7 +2912,7 @@ h6 {
       font-size: 20px;
       color: #222222;
       margin-bottom: 0px;
-      font-family: "Rajdhani", sans-serif; }
+      font-family: "Open Sans", sans-serif; }
   .price_item .price_body {
     padding: 30px 0px;
     background: #fff;
@@ -2922,7 +2925,7 @@ h6 {
       .price_item .price_body ul li a {
         font-size: 14px;
         color: #666666;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: normal; }
       .price_item .price_body ul li:last-child {
         margin-bottom: 0px; }
@@ -3076,7 +3079,7 @@ h6 {
     .impress_area .impress_inner h2 {
       color: #fff;
       font-size: 36px;
-      font-family: "Rajdhani", sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-weight: bold;
       margin-bottom: 18px; }
     .impress_area .impress_inner p {
@@ -3236,7 +3239,7 @@ h6 {
   /* Recent Update Area css
   ============================================================================================ */
   .recent_update_area {
-    padding: 80px 0;
+    padding: 20px 0;
     background-image: none;
     background-color: #fcf8ff; }
 
@@ -3610,13 +3613,13 @@ h6 {
     color: #000;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin-bottom: 0px; }
 
 .ab_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   margin-bottom: 30px; }
   .ab_widget p a {
@@ -3629,7 +3632,7 @@ h6 {
   .news_widget p {
     font-size: 14px;
     line-height: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #777777;
     margin-bottom: 15px; }
   .news_widget .input-group {
@@ -3643,28 +3646,28 @@ h6 {
       border: none;
       padding: 0px 15px;
       font-size: 14px;
-      font-family: "Roboto", sans-serif;
+      font-family: "Open Sans", sans-serif;
       color: #cccccc;
       outline: none;
       box-shadow: none; }
       .news_widget .input-group input.placeholder {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: normal;
         color: #cccccc; }
       .news_widget .input-group input:-moz-placeholder {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: normal;
         color: #cccccc; }
       .news_widget .input-group input::-moz-placeholder {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: normal;
         color: #cccccc; }
       .news_widget .input-group input::-webkit-input-placeholder {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: normal;
         color: #cccccc; }
     .news_widget .input-group .sub-btn {
@@ -3683,7 +3686,7 @@ h6 {
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #777777;
   margin-bottom: 10px; }
 .social_widget .list li {
